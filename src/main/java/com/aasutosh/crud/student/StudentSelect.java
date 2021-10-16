@@ -37,14 +37,14 @@ public class StudentSelect {
 									.setStudentId(cursor.getInt("student_id"))
 									.setStudentName(cursor.getString("student_name"));
 				
-//				String line = String.format("ID: %d \t Name : %s \t\t Age:%d", cursor.getInt("student_id"),
-//						cursor.getString("student_name"), cursor.getInt("age"));
-//				System.out.println(line);
+				String line = String.format("ID: %d \t Name : %s \t\t Age:%d", cursor.getInt("student_id"),
+						cursor.getString("student_name"), cursor.getInt("age"));
+				System.out.println(line);
 				
 			}
 			
 			
-			
+			System.out.println("**********************************Print Again Student Records****************************************************");
 			for (int i = 0; i < studentArr.length; i++) {
 				System.out.println(studentArr[i]);
 			}
